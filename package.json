@@ -10,7 +10,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "prebuild": "npm run test",
+    "prebuild": "npm test",
     "build": "react-scripts build",
     "lint": "eslint --ext=js --ext=jsx .",
     "pretest": "npm run lint",
