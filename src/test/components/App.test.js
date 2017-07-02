@@ -1,9 +1,9 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './App';
-import { shallow } from 'enzyme';
 import { expect } from 'chai';
+import { shallow } from 'enzyme';
+import React from 'react';
+import App from '../../App';
 
+/* eslint  no-unused-expressions: "off" */
 describe('<App/>', () => {
   it('exists', () => {
     expect(App).to.exist;

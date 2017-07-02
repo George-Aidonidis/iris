@@ -1,0 +1,15 @@
+{
+  "extends": "airbnb",
+  "globals": {
+    "window": true
+  },
+  "env": {
+    "browser": true,
+    "jest": true
+  },
+  "rules": {
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "comma-dangle": "off",
+    "jsx-quotes": ["error", "prefer-single"]
+  }
+}
