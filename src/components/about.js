@@ -2,11 +2,13 @@ import React from 'react';
 import logo from '../logo.svg';
 import '../App.css';
 
+const test = 'something';
+
 const App = () => (
   <div className='App'>
     <div className='App-header'>
       <img src={logo} className='App-logo' alt='logo' />
-      <h2>Contact</h2>
+      <h2>About page</h2>
     </div>
   </div>
 );
