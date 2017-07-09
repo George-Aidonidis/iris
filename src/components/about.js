@@ -6,7 +6,7 @@ const App = () => (
   <div className='App'>
     <div className='App-header'>
       <img src={logo} className='App-logo' alt='logo' />
-      <h2>Contact</h2>
+      <h2>About page</h2>
     </div>
   </div>
 );
