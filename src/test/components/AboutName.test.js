@@ -1,5 +1,6 @@
 import { expect } from 'chai';
 import { shallow } from 'enzyme';
+import { MemoryRouter } from 'react-router-dom';
 import React from 'react';
 import AboutName from '../../components/about-name';
 
@@ -10,7 +11,11 @@ describe('<AboutName/>', () => {
   });
   it('renders without crashing', () => {
     // how to test this?
-    const wrapper = shallow(<AboutName />);
+    const wrapper = shallow(
+      <MemoryRouter>
+        <AboutName />
+      </MemoryRouter>
+    );
     expect(wrapper).to.have.length(1);
   });
 });
